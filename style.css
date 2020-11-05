@@ -1,0 +1,213 @@
+.topnav {
+  background-color: darkseagreen;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 23px 26px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: darkgreen;
+  color: white;
+}
+
+.topnav a.logo {
+    
+    padding: 18px 26px;
+}
+
+.topnav img {
+  height: 15px;
+    width: 300px;
+  margin: 5px;
+    
+        
+}
+
+h1 {
+text-align: center;
+    font-style: italic;
+    color: darkseagreen;
+}
+
+div.boxed {
+    height: 250px;
+  border: 8px green;
+  padding: 8px;
+}
+
+p {
+   
+    font-size: 20px;
+    font-family: cursive;
+    text-align: top: left;
+    
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.img2 {
+  float: left;
+}
+
+
+p1{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: top: left;
+}
+
+hr.solid {
+  border-top: 4px solid peachpuff;
+}
+
+.button {
+  background-color: peachpuff;
+  border: none;
+  color: white;
+  padding: 25px 150px;
+  text-align: center;
+  text-decoration: none;
+  font-family: cursive;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: peachpuff;
+  border: none;
+  color: white;
+  padding: 25px 150px;
+  text-align: center;
+  text-decoration: none;
+  font-family: cursive;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button3 {
+  background-color: peachpuff;
+  border: none;
+  color: white;
+  padding: 25px 150px;
+  text-align: center;
+  text-decoration: none;
+  font-family: cursive;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button4 {
+  background-color: peachpuff;
+  border: none;
+  color: white;
+  padding: 25px 138px;
+  text-align: center;
+  text-decoration: none;
+  font-family: cursive;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button5 {
+  background-color: peachpuff;
+  border: none;
+  color: white;
+  padding: 25px 135px;
+  text-align: center;
+  text-decoration: none;
+  font-family: cursive;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button6 {
+  background-color: peachpuff;
+  border: none;
+  color: white;
+  padding: 25px 142px;
+  text-align: center;
+  text-decoration: none;
+  font-family: cursive;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
